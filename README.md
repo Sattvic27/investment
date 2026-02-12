@@ -1,48 +1,85 @@
-# Investment
+# ⛓️ Blockchain Consensus Integration — AI-Inspired Distributed Validation System
 
-Code related to the investment section of the website.
+A modern **blockchain-powered consensus simulation module** built as an extension to the **TorbellinoTech Investment Simulation Project**.
 
-See [market_sim](market_sim/README.md) for more details on the market simulation framework
+This system demonstrates how decentralized nodes can propose transactions, reach agreement, and store validated data in an immutable blockchain ledger — all within a clean simulation environment.
 
-## Instructions (test)
+**Tagline:** _“Simulate trust. Validate transactions. Build decentralized intelligence.”_
 
-1. Read this readme and all the docs.
-2. Create a fork of this repo with your contribution.
-3. Check other branches (blockchain_integration_test_v0.1).
-4. Contact.
+---
 
-## Contact
+## 🌟 Features
 
-juan.diez@torbellino.tech
+- 🧾 **Transaction Proposal Engine**
+  - Multiple nodes generate independent transactions
+  - Randomized transaction simulation
+  - Mimics decentralized financial activity
 
-## Further docs
+- 🗳️ **Consensus Mechanism**
+  - Majority-based agreement protocol
+  - Selects validated transaction across nodes
+  - Demonstrates distributed decision-making
 
-test: https://drive.google.com/file/d/19vKu5HmRJWuzrDGBsTaEiHyJlznYUZKO/view?usp=drive_link
-book: https://drive.google.com/file/d/1l9_uCBWikmX-XX5E15n3T65Nkh_cNnEW/view?usp=drive_link
+- ⛓️ **Blockchain Ledger Integration**
+  - Blocks linked using SHA-256 hashing
+  - Immutable transaction storage
+  - Genesis block initialization
 
-## Usage
+- 📊 **Consensus Visualization**
+  - Node voting plotted graphically
+  - Bar chart representation of agreement
+  - Visual interpretation of consensus flow
 
-```
-python3 test_db_operations.py
-```
+- ⚙️ **Simulation-Ready Architecture**
+  - Modular design
+  - Easily pluggable into financial simulations
+  - Extensible consensus models
 
-## Market Dynamics and Trading Simulation
+---
 
-Implements a framework for simulating, analyzing, and learning about financial markets, trading strategies, and blockchain integration.
+## 🤖 Conceptual Foundation
 
-Currently v0.
+This module applies theoretical principles from blockchain and distributed systems:
 
-## License
+### Implemented Concepts
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Distributed Consensus
+- Transaction Validation
+- Hash-Linked Blocks
+- Immutable Ledger Systems
+- Decentralized Agreement Models
 
-The MIT License was chosen to:
-- Encourage wide adoption and collaboration
-- Allow commercial and academic use
-- Keep compliance simple
-- Protect contributors from liability
-- Maintain compatibility with most open-source projects
+### Design Philosophy
 
-## Notes
+- Educational over production complexity
+- Simulation clarity over cryptographic depth
+- Extensible for future protocol experimentation
 
-Project log reinitialized on 2025-01-19.
+> Designed to demonstrate how trust emerges from decentralized agreement rather than central authority.
+
+---
+
+## 🧱 Tech Stack
+
+### Core Language
+- **Python 3**
+
+### Libraries Used
+- **hashlib** → Cryptographic hashing
+- **time** → Block timestamping
+- **random** → Transaction simulation
+- **collections** → Consensus counting
+- **matplotlib** → Voting visualization
+
+---
+
+## 📁 Project Structure
+
+```bash
+blockchain_integration/
+├── blockchain.py        # Block + chain logic
+├── node.py              # Node transaction proposals
+├── consensus.py         # Consensus algorithm
+├── visualize.py         # Voting visualization
+├── test_blockchain.py  # Simulation runner
+└── README.md
