@@ -86,3 +86,15 @@ blockchain_integration/
 
 
 Built within assignment constraints
+
+## 🚀 How to Run This Project
+
+```bash
+# 1️⃣ Go to project directory
+cd blockchain_integration
+
+# 2️⃣ Install dependencies
+pip install matplotlib
+
+# 3️⃣ Run the blockchain simulation
+python test_blockchain.py
